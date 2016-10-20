@@ -7,7 +7,7 @@
     "start": "nodemon src/index.js --exec babel-node --presets node6",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Greg Chamberlain <gregchamberlain94@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^0.3.2",
@@ -24,5 +24,9 @@
     "babel-preset-node6": "^11.0.0",
     "babel-preset-stage-0": "^6.16.0",
     "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "url": "git@github.com:gregchamberlain/dynamic-graphql-backend.git",
+    "type": "git"
   }
 }

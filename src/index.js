@@ -4,7 +4,7 @@ const graphqlHTTP = require('express-graphql');
 import { apolloExpress, graphiqlExpress } from 'apollo-server';
 import { makeExecutableSchema } from 'graphql-tools';
 
-import schema from './test';
+import schema from './manualSchema';
 import typeDefs from './schema';
 import resolvers from './resolve';
 
