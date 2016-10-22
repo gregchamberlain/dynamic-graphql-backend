@@ -1,4 +1,4 @@
-export default `
+module.exports = `
 type Author {
   id: Int! # the ! means that every author object _must_ have an id
   firstName: String

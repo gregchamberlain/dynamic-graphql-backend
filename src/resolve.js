@@ -67,4 +67,4 @@ const authors = [
  { id: 4, firstName: 'Jane', lastName: 'Smith' },
 ];
 
-export default resolveFunctions;
+module.exports = resolveFunctions;

@@ -59,29 +59,6 @@ const defaultTypes = {
   ID: true,
 };
 
-// const jsonschema = {
-//   Person: {
-//     firstName: "String!",
-//     lastName: "String!",
-//     age: "Int"
-//   },
-//   Tower: {
-//     name: "String!",
-//     address: "String!",
-//     lat: "Float!",
-//     lng: "Float!",
-//     APS: '[Radio]',
-//   },
-//   Radio: {
-//     make: "String!",
-//     model: "String!",
-//     description: "String"
-//   },
-//   Query: {
-//     people: "[Person]"
-//   }
-// };
-
 const parseSchema = models => {
   let str = '';
   models.forEach(model => {
@@ -151,7 +128,7 @@ const nullify = (type, nullable) => (
 const parseField = field => {
   const type =  nullify(listify(field.type, field.list), field.nullable);
   if (field.relation) {
-    
+
   }
 };
 
